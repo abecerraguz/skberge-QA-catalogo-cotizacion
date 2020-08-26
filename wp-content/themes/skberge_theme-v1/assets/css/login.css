@@ -1,0 +1,47 @@
+body.login {
+  background: #E9E9E8;
+}
+
+body.login div#login h1 {
+  width: 100%;
+}
+
+body.login div#login h1 a {
+  background: url(../images/login/logo.svg) no-repeat center center/auto 100% transparent;
+  height: 125px;
+  margin: 0 auto 50px;
+  outline: none;
+  width: 100%;
+}
+
+body.login div#login #loginform #user_pass,
+body.login div#login #loginform #user_login {
+  color: rgba(42, 75, 129, .6);
+  text-transform:uppercase;
+}
+
+body.login div#login #nav a,
+body.login div#login #backtoblog a {
+  color: rgba(42, 75, 129, .6);
+  text-transform:uppercase;
+}
+
+body.login div#login #nav a:hover,
+body.login div#login #backtoblog a:hover {
+  color: rgba(42, 75, 129, .6);
+  text-transform:uppercase;
+}
+
+
+.login form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 46px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #2b4b80;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.64);
+    border-radius: 5px;
+    color: #fff;
+}
