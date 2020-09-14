@@ -50,7 +50,7 @@ Template Post Type: post, marcas
                             echo '<article class="contenCard">';
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
-                            echo '<div class="headerCardCategory"><i class="fas fa-chevron-down"></i> '.$category->cat_name.'</div>';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
                             echo '<div class="headerCard-dos text-center">';
                             echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
                             echo '</div>';
@@ -58,7 +58,7 @@ Template Post Type: post, marcas
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
                             echo '<div class="contentButton">';
-                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'"><i class="fas fa-search mr-2"></i>Buscar accesorio</button>';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
                             echo '</div>';
                             echo '</a>';
 
@@ -102,7 +102,7 @@ Template Post Type: post, marcas
                             echo '<article class="contenCard">';
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
-                            echo '<div class="headerCardCategory"><i class="fas fa-chevron-down"></i> '.$category->cat_name.'</div>';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
                             echo '<div class="headerCard-dos text-center">';
                             echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
                             echo '</div>';
@@ -110,7 +110,7 @@ Template Post Type: post, marcas
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
                             echo '<div class="contentButton">';
-                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'"><i class="fas fa-search mr-2"></i>Buscar accesorio</button>';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
                             echo '</div>';
                             echo '</a>';
 
@@ -154,7 +154,7 @@ Template Post Type: post, marcas
                             echo '<article class="contenCard">';
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
-                            echo '<div class="headerCardCategory"><i class="fas fa-chevron-down"></i> '.$category->cat_name.'</div>';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
                             echo '<div class="headerCard-dos text-center">';
                             echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
                             echo '</div>';
@@ -162,7 +162,7 @@ Template Post Type: post, marcas
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
                             echo '<div class="contentButton">';
-                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'"><i class="fas fa-search mr-2"></i>Buscar accesorio</button>';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
                             echo '</div>';
                             echo '</a>';
 
@@ -205,7 +205,7 @@ Template Post Type: post, marcas
                             echo '<article class="contenCard">';
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
-                            echo '<div class="headerCardCategory"><i class="fas fa-chevron-down"></i> '.$category->cat_name.'</div>';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
                             echo '<div class="headerCard-dos text-center">';
                             echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
                             echo '</div>';
@@ -213,7 +213,7 @@ Template Post Type: post, marcas
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
                             echo '<div class="contentButton">';
-                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'"><i class="fas fa-search mr-2"></i>Buscar accesorio</button>';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
                             echo '</div>';
                             echo '</a>';
 
@@ -256,7 +256,7 @@ Template Post Type: post, marcas
                             echo '<article class="contenCard">';
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
-                            echo '<div class="headerCardCategory"><i class="fas fa-chevron-down"></i> '.$category->cat_name.'</div>';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
                             echo '<div class="headerCard-dos text-center">';
                             echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
                             echo '</div>';
@@ -264,7 +264,7 @@ Template Post Type: post, marcas
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
                             echo '<div class="contentButton">';
-                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'"><i class="fas fa-search mr-2"></i>Buscar accesorio</button>';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
                             echo '</div>';
                             echo '</a>';
 
@@ -307,7 +307,7 @@ Template Post Type: post, marcas
                             echo '<article class="contenCard">';
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
-                            echo '<div class="headerCardCategory"><i class="fas fa-chevron-down"></i> '.$category->cat_name.'</div>';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
                             echo '<div class="headerCard-dos text-center">';
                             echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
                             echo '</div>';
@@ -315,7 +315,110 @@ Template Post Type: post, marcas
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
                             echo '<div class="contentButton">';
-                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'"><i class="fas fa-search mr-2"></i>Buscar accesorio</button>';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
+                            echo '</div>';
+                            echo '</a>';
+
+                            // echo '<div class="headerBody">';
+                            // echo '<select id="'.$id.'" name="accesorios_mmc-'.$id.'" class="form-control is-invalid nombreAccesorio">';
+                            // echo '<option value="-1" selected="">Seleccione Accesorio</option>';
+                            //             if(in_category('ram_2500_doble_cabina')){
+                            //                 if(has_term('', 'ram_2500_doble_cabina')){
+                            //                    $tax_terms = get_terms('ram_2500_doble_cabina', array('hide_empty' => '0'));  
+                            //                    foreach ( $tax_terms as $tax_term ):  
+                            //                       echo '<option value="'.$tax_term->slug.'">'.$tax_term->name.'</option>';   
+                            //                    endforeach;
+                            //                 }
+                            //             }
+                            // echo '</select>';
+                            // echo '</div>';
+                            echo '<div class="headerFooter">';
+                            echo '</div>';
+                            echo '</article>';
+                            echo '</div>';
+
+                }
+                endwhile;
+                wp_reset_postdata();
+
+
+                  $argsMarcas = array(
+                    'post_type'      => 'accesorios-ram',
+                    'category_name'  => 'ram_1000',
+                    'posts_per_page' => 1,
+                    'orderby'        => 'title',
+                    'order'          => 'ASC',
+                    'post__not_in' => array( 65,66,67,68,69,70)
+                );
+                $the_queryMarcas = new WP_Query($argsMarcas);
+
+                while($the_queryMarcas->have_posts()) : $the_queryMarcas->the_post();
+                $id = get_the_ID();
+                foreach((get_the_category()) as $category) { 
+                            echo '<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 mb-4">';
+                            echo '<article class="contenCard">';
+
+                            echo '<a href="'.get_category_link($category->cat_ID).'">';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
+                            echo '<div class="headerCard-dos text-center">';
+                            echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
+                            echo '</div>';
+                            echo '</a>';
+
+                            echo '<a href="'.get_category_link($category->cat_ID).'">';
+                            echo '<div class="contentButton">';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
+                            echo '</div>';
+                            echo '</a>';
+
+                            // echo '<div class="headerBody">';
+                            // echo '<select id="'.$id.'" name="accesorios_mmc-'.$id.'" class="form-control is-invalid nombreAccesorio">';
+                            // echo '<option value="-1" selected="">Seleccione Accesorio</option>';
+                            //             if(in_category('ram_2500_doble_cabina')){
+                            //                 if(has_term('', 'ram_2500_doble_cabina')){
+                            //                    $tax_terms = get_terms('ram_2500_doble_cabina', array('hide_empty' => '0'));  
+                            //                    foreach ( $tax_terms as $tax_term ):  
+                            //                       echo '<option value="'.$tax_term->slug.'">'.$tax_term->name.'</option>';   
+                            //                    endforeach;
+                            //                 }
+                            //             }
+                            // echo '</select>';
+                            // echo '</div>';
+                            echo '<div class="headerFooter">';
+                            echo '</div>';
+                            echo '</article>';
+                            echo '</div>';
+
+                }
+                endwhile;
+                wp_reset_postdata();
+
+                   $argsMarcas = array(
+                    'post_type'      => 'accesorios-ram',
+                    'category_name'  => 'ram_700',
+                    'posts_per_page' => 1,
+                    'orderby'        => 'title',
+                    'order'          => 'ASC',
+                    'post__not_in' => array( 65,66,67,68,69,70)
+                );
+                $the_queryMarcas = new WP_Query($argsMarcas);
+
+                while($the_queryMarcas->have_posts()) : $the_queryMarcas->the_post();
+                $id = get_the_ID();
+                foreach((get_the_category()) as $category) { 
+                            echo '<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 mb-4">';
+                            echo '<article class="contenCard">';
+
+                            echo '<a href="'.get_category_link($category->cat_ID).'">';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
+                            echo '<div class="headerCard-dos text-center">';
+                            echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
+                            echo '</div>';
+                            echo '</a>';
+
+                            echo '<a href="'.get_category_link($category->cat_ID).'">';
+                            echo '<div class="contentButton">';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
                             echo '</div>';
                             echo '</a>';
 

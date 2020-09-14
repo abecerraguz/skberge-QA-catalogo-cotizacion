@@ -50,7 +50,7 @@ Template Post Type: post, marcas
                             echo '<article class="contenCard">';
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
-                            echo '<div class="headerCardCategory"><i class="fas fa-chevron-down"></i> '.$category->cat_name.'</div>';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
                             echo '<div class="headerCard-dos text-center">';
                             echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
                             echo '</div>';
@@ -58,7 +58,7 @@ Template Post Type: post, marcas
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
                             echo '<div class="contentButton">';
-                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'"><i class="fas fa-search mr-2"></i>Buscar accesorio</button>';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
                             echo '</div>';
                             echo '</a>';
 
@@ -102,7 +102,7 @@ Template Post Type: post, marcas
                             echo '<article class="contenCard">';
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
-                            echo '<div class="headerCardCategory"><i class="fas fa-chevron-down"></i> '.$category->cat_name.'</div>';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
                             echo '<div class="headerCard-dos text-center">';
                             echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
                             echo '</div>';
@@ -110,7 +110,7 @@ Template Post Type: post, marcas
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
                             echo '<div class="contentButton">';
-                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'"><i class="fas fa-search mr-2"></i>Buscar accesorio</button>';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
                             echo '</div>';
                             echo '</a>';
 
@@ -154,7 +154,7 @@ Template Post Type: post, marcas
                             echo '<article class="contenCard">';
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
-                            echo '<div class="headerCardCategory"><i class="fas fa-chevron-down"></i> '.$category->cat_name.'</div>';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
                             echo '<div class="headerCard-dos text-center">';
                             echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
                             echo '</div>';
@@ -162,7 +162,7 @@ Template Post Type: post, marcas
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
                             echo '<div class="contentButton">';
-                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'"><i class="fas fa-search mr-2"></i>Buscar accesorio</button>';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
                             echo '</div>';
                             echo '</a>';
 
@@ -206,7 +206,7 @@ Template Post Type: post, marcas
                             echo '<article class="contenCard">';
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
-                            echo '<div class="headerCardCategory"><i class="fas fa-chevron-down"></i> '.$category->cat_name.'</div>';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
                             echo '<div class="headerCard-dos text-center">';
                             echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
                             echo '</div>';
@@ -214,7 +214,7 @@ Template Post Type: post, marcas
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
                             echo '<div class="contentButton">';
-                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'"><i class="fas fa-search mr-2"></i>Buscar accesorio</button>';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
                             echo '</div>';
                             echo '</a>';
 
@@ -258,7 +258,7 @@ Template Post Type: post, marcas
                             echo '<article class="contenCard">';
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
-                            echo '<div class="headerCardCategory"><i class="fas fa-chevron-down"></i> '.$category->cat_name.'</div>';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
                             echo '<div class="headerCard-dos text-center">';
                             echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
                             echo '</div>';
@@ -266,7 +266,7 @@ Template Post Type: post, marcas
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
                             echo '<div class="contentButton">';
-                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'"><i class="fas fa-search mr-2"></i>Buscar accesorio</button>';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
                             echo '</div>';
                             echo '</a>';
 
@@ -311,7 +311,7 @@ Template Post Type: post, marcas
                             echo '<article class="contenCard">';
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
-                            echo '<div class="headerCardCategory"><i class="fas fa-chevron-down"></i> '.$category->cat_name.'</div>';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
                             echo '<div class="headerCard-dos text-center">';
                             echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
                             echo '</div>';
@@ -319,7 +319,7 @@ Template Post Type: post, marcas
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
                             echo '<div class="contentButton">';
-                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'"><i class="fas fa-search mr-2"></i>Buscar accesorio</button>';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
                             echo '</div>';
                             echo '</a>';
 
@@ -364,7 +364,7 @@ Template Post Type: post, marcas
                             echo '<article class="contenCard">';
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
-                            echo '<div class="headerCardCategory"><i class="fas fa-chevron-down"></i> '.$category->cat_name.'</div>';
+                            echo '<div class="headerCardCategory">'.$category->cat_name.'</div>';
                             echo '<div class="headerCard-dos text-center">';
                             echo the_post_thumbnail('full', array('class' => 'img-fluid clearSt'));
                             echo '</div>';
@@ -372,7 +372,7 @@ Template Post Type: post, marcas
 
                             echo '<a href="'.get_category_link($category->cat_ID).'">';
                             echo '<div class="contentButton">';
-                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'"><i class="fas fa-search mr-2"></i>Buscar accesorio</button>';
+                            echo '<button name="buscarAccesorio" class="marcaAccesorio-'.$id.'">Buscar accesorio</button>';
                             echo '</div>';
                             echo '</a>';
 
