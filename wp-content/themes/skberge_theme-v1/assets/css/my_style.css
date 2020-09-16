@@ -1584,3 +1584,37 @@ input[type=number]::-webkit-outer-spin-button {
     max-width: 56%;
 }
 
+.hrList{
+    display: block;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.marginTop{
+    margin-top: 3px;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#taxAccesorio{
+    padding: 0 6px!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.skuAccesorio {
+    display: none!important;
+}
+
+.sku{
+     display: none!important;
+}
+
+.detalleProducto ul li:last-child{
+   display:none!important; 
+}
+

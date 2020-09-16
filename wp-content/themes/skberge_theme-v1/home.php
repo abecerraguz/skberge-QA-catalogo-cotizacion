@@ -138,7 +138,7 @@
 					$the_queryMarcas = new WP_Query($argsMarcas);
 					while($the_queryMarcas->have_posts()) : $the_queryMarcas->the_post();
 					    foreach((get_the_category()) as $category) {
-							echo '<a href="'.get_the_permalink().'" class="btn btn-verde left-10 right-10">'.$category->cat_name.'</a>';
+							echo '<a href="'.get_the_permalink().'" class="btn btn-lg inline-block btn-ssangyong left-10 right-10">'.$category->cat_name.'</a>';
 						}
 					endwhile;
 					wp_reset_postdata();

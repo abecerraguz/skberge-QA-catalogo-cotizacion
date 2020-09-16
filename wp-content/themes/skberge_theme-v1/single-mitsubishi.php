@@ -34,7 +34,7 @@ Template Post Type: post, marcas
            
                 $argsMarcas = array(
                     'post_type'      => 'accesorios-mmc',
-                    'category_name'  => 'l200',
+                    'category_name'  => 'old_l200',
                     'posts_per_page' => 1,
                     'orderby'        => 'title',
                     'order'          => 'ASC',
@@ -87,7 +87,7 @@ Template Post Type: post, marcas
 
                  $argsMarcas = array(
                     'post_type'      => 'accesorios-mmc',
-                    'category_name'  => 'new-l200',
+                    'category_name'  => 'new_l200',
                     'posts_per_page' => 1,
                     'orderby'        => 'title',
                     'order'          => 'ASC',
@@ -193,7 +193,7 @@ Template Post Type: post, marcas
 
                  $argsMarcas = array(
                     'post_type'      => 'accesorios-mmc',
-                    'category_name'  => 'montero-sport',
+                    'category_name'  => 'old_montero_sport',
                     'posts_per_page' => 1,
                     'orderby'        => 'title',
                     'order'          => 'ASC',
@@ -246,7 +246,7 @@ Template Post Type: post, marcas
 
                  $argsMarcas = array(
                     'post_type'      => 'accesorios-mmc',
-                    'category_name'  => 'new-montero-sport',
+                    'category_name'  => 'new_montero_sport',
                     'posts_per_page' => 1,
                     'orderby'        => 'title',
                     'order'          => 'ASC',
@@ -298,7 +298,7 @@ Template Post Type: post, marcas
 
                  $argsMarcas = array(
                     'post_type'      => 'accesorios-mmc',
-                    'category_name'  => 'montero-corto',
+                    'category_name'  => 'montero_corto',
                     'posts_per_page' => 1,
                     'orderby'        => 'title',
                     'order'          => 'ASC',
@@ -351,7 +351,7 @@ Template Post Type: post, marcas
 
                  $argsMarcas = array(
                     'post_type'      => 'accesorios-mmc',
-                    'category_name'  => 'montero-largo',
+                    'category_name'  => 'montero_largo',
                     'posts_per_page' => 1,
                     'orderby'        => 'title',
                     'order'          => 'ASC',
@@ -404,7 +404,7 @@ Template Post Type: post, marcas
 
                  $argsMarcas = array(
                     'post_type'      => 'accesorios-mmc',
-                    'category_name'  => 'asx',
+                    'category_name'  => 'old_asx',
                     'posts_per_page' => 1,
                     'orderby'        => 'title',
                     'order'          => 'ASC',

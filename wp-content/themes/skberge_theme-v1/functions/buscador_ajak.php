@@ -65,12 +65,13 @@ function abg_loadmore_ajax_handler(){
             echo '<li class="list-group-item nameAccesorio text-uppercase font-weight-bold text-dark" id="'.'nombre-'.$id.'">'.$nameAccesorio.'</li>';
             echo '<li class="list-group-item marcaAcceso text-uppercase" id="'.'marca-'.$id.'">'.$brand.'</li>';
 
+            /**PARA QUE ES ESTO ??????**/
             $args = array(
                 'template'      => '%2$l',
-                'term_template' => '%2$s',
+                'term_template' => '<span class="marginTop">%2$s</span>',
                 'post'   => 0,
                 'before' => '<li class=list-group-item id="taxAccesorio">',
-                'sep'    => ' : ',
+                'sep'    => '<span class="hrList"></span>',
                 'after'  => '</li>',
             );
             the_taxonomies( $args );
@@ -217,13 +218,14 @@ function filter_function(){
             /**PARA QUE ES ESTO ??????**/
             $args = array(
                 'template'      => '%2$l',
-                'term_template' => '%2$s',
+                'term_template' => '<span class="marginTop">%2$s</span>',
                 'post'   => 0,
                 'before' => '<li class=list-group-item id="taxAccesorio">',
-                'sep'    => ' : ',
+                'sep'    => '<span class="hrList"></span>',
                 'after'  => '</li>',
             );
             the_taxonomies( $args );
+
 
 
             if($accesorio_slug == "accesorios-mmc")

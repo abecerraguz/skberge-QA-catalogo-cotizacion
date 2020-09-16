@@ -504,7 +504,7 @@ add_action( 'init', '_nom_wrangler_jl_cuatro_puertas', 0 );
 
 
 // INICIO TAXONOMY MITSUBISHI
-function _nom_l200() {
+function _nom_old_l200() {
 
     $labels = array(
         'name'                       => _x( 'Accesorio L200', 'Taxonomy General Name', 'text_domain' ),
@@ -537,10 +537,10 @@ function _nom_l200() {
         'show_in_nav_menus'          => true,
         'show_tagcloud'              => true,
     );
-    register_taxonomy( 'l200', array( 'accesorios-mmc'), $args );
+    register_taxonomy( 'old_l200', array( 'accesorios-mmc'), $args );
 
 }
-add_action( 'init', '_nom_l200', 0 );
+add_action( 'init', '_nom_old_l200', 0 );
 
 
 
@@ -621,7 +621,7 @@ function _nom_outlander() {
 }
 add_action( 'init', '_nom_outlander', 0 );
 
-function _nom_montero_sport() {
+function _nom_old_montero_sport() {
 
     $labels = array(
         'name'                       => _x( 'Accesorio Montero Sport', 'Taxonomy General Name', 'text_domain' ),
@@ -654,10 +654,10 @@ function _nom_montero_sport() {
         'show_in_nav_menus'          => true,
         'show_tagcloud'              => true,
     );
-    register_taxonomy( 'montero_sport', array( 'accesorios-mmc'), $args );
+    register_taxonomy( 'old_montero_sport', array( 'accesorios-mmc'), $args );
 
 }
-add_action( 'init', '_nom_montero_sport', 0 );
+add_action( 'init', '_nom_old_montero_sport', 0 );
 
 
 function _nom_new_montero_sport() {
@@ -774,7 +774,7 @@ function _nom_montero_largo() {
 }
 add_action( 'init', '_nom_montero_largo', 0 );
 
-function _nom_asx() {
+function _nom_old_asx() {
 
     $labels = array(
         'name'                       => _x( 'Accesorio ASX', 'Taxonomy General Name', 'text_domain' ),
@@ -807,10 +807,10 @@ function _nom_asx() {
         'show_in_nav_menus'          => true,
         'show_tagcloud'              => true,
     );
-    register_taxonomy( 'asx', array( 'accesorios-mmc'), $args );
+    register_taxonomy( 'old_asx', array( 'accesorios-mmc'), $args );
 
 }
-add_action( 'init', '_nom_asx', 0 );
+add_action( 'init', '_nom_old_asx', 0 );
 
 
 function _nom_new_asx() {
