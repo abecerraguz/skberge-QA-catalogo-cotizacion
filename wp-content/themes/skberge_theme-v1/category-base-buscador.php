@@ -75,8 +75,8 @@
 
                         <div class="col-md-4 mb-3">
                         <select name="abg_order_by" id="abg_order_by" class="form-control is-invalid">
-                            <option value="date-DESC">Orden &darr;</option>
-                            <option value="date-ASC">Orden &uarr;</option>
+                            <option value="date-DESC">Orden (A-Z) &darr;</option>
+                            <option value="date-ASC">Orden (A-Z) &uarr;</option>
                         </select>
                         </div>
 
@@ -84,7 +84,7 @@
                         <div class="text-center row d-flex justify-content-center mb-3">
                         <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                             <?php
-                                echo '<a href="#" class="btn btn-lg inline-block '.$classCss["classBtnMarca"].'">Eliminar Filtros</a>';
+                                echo '<a id="eliminarFiltro" href="#" class="btn btn-lg inline-block '.$classCss["classBtnMarca"].'">Eliminar Filtros</a>';
                             ?>
                             <input type="hidden" name="action" value="abgfilter">
                         </div>

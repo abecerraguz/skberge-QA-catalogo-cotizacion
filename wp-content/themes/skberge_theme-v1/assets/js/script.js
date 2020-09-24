@@ -81,6 +81,7 @@ filtrar();
 var filtrarCat  = $('#filtrarCat')
 var filtrarAcce = $('#accesorioMarca')
 var abgOrder    = $('#abg_order_by')
+
 filtrarCat.change(function(){
      filtrar()
      //console.log('Filtra categoría');
@@ -89,6 +90,11 @@ filtrarCat.change(function(){
 filtrarAcce.change(function(){
      filtrar()
      //console.log('Filtra accesorio');
+});
+
+abgOrder.change(function(){
+     filtrar()
+     console.log('Filtra ASC DEC');
 });
 
 filtrarCat.selectpicker();
@@ -634,7 +640,7 @@ function filtrar(){
 	return false;
 };
 
-$('.eliminarFiltro').click(function(event){
+$('#eliminarFiltro').click(function(event){
 	event.preventDefault();
 	$('button[data-id="filtrarCat"] .filter-option-inner-inner').text('Todas las categorias');
 	$('button[data-id="accesorioMarca"] .filter-option-inner-inner').text('Todos los accesorios');

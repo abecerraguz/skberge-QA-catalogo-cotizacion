@@ -113,9 +113,14 @@ function filter_function(){
         //'post_type'      => array( 'accesorios-mmc', 'accesorios-fiat', 'accesorios-dodge', 'accesorios-jeep', 'accesorios-ram', 'accesorios-ssangyong'),
         //'posts_per_page' => get_option('posts_per_page'),
         'posts_per_page' => get_option('posts_per_page'),
-        'order'          => $order[0],
-        'orderby'        => 'ID',
+        // 'order'          => $order[0],
+        // 'orderby'        => 'ID',
+        'orderby'        => 'title',
+        'order'          => $order[1],
         'paged'          => 1
+
+
+
 
     );
 
